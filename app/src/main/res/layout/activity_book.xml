@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivItemImage"
+            android:layout_width="match_parent"
+            android:layout_height="281dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/edittext_border"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wheels" />
+
+    </FrameLayout>
+
+    <!-- TextView for Event Name -->
+    <TextView
+        android:id="@+id/eventNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Event Name"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:layout_marginLeft="16dp" />
+
+    <!-- TextView for Age -->
+    <TextView
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:text="Age"
+        android:textColor="@color/red"
+        android:textSize="0sp"
+        android:layout_marginLeft="16dp" />
+
+    <!-- TextView for Phone Number -->
+    <TextView
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp" />
+
+    <!-- TextView for Sports Name -->
+    <TextView
+        android:id="@+id/sportsNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports Name"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp" />
+
+    <!-- TextView for Date -->
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="@color/dark_green"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp" />
+
+    <!-- TextView for Sports Category -->
+    <TextView
+        android:id="@+id/sportCategorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports Category"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp" />
+
+    <!-- TextView for Location -->
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp" />
+
+
+    <!-- Button for Call -->
+
+    <!-- Button for Chat -->
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Call"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp" />
+
+    <Button
+        android:id="@+id/chatButton"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/dark_green"
+        android:padding="8dp"
+        android:text="whatsapp"
+        android:textSize="22sp" />
+
+</LinearLayout>

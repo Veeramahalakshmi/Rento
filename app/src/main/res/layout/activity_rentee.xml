@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <!-- Welcome Text -->
+
+
+    <!-- Divider -->
+
+    <!-- Bottom Navigation View -->
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:layout_marginLeft="150dp"
+        android:gravity="center"
+        android:text="Welcome!"
+        android:textColor="@color/dark_green"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Signout"
+        android:layout_width="159dp"
+        android:layout_height="131dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginStart="-262dp"
+        android:layout_marginTop="457dp"
+        android:layout_toEndOf="@id/profile"
+        android:clickable="true"
+        android:src="@drawable/signout" />
+
+    <ImageView
+        android:id="@+id/additem"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:src="@drawable/additem" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="314dp"
+        android:clickable="true"
+        android:src="@drawable/pro" />
+
+    <ImageView
+        android:id="@+id/youritems"
+        android:layout_width="381dp"
+        android:layout_height="123dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginStart="-351dp"
+        android:layout_marginTop="158dp"
+        android:layout_toEndOf="@id/profile"
+        android:clickable="true"
+        android:src="@drawable/youritem" />
+
+</RelativeLayout>

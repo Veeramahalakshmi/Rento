@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "838632189972",
+    "firebase_url": "https://login-signup-2265d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "login-signup-2265d",
+    "storage_bucket": "login-signup-2265d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838632189972:android:29eb82a88d896748c7f701",
+        "android_client_info": {
+          "package_name": "com.example.loginsignup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaDSfYUNuQ84Oe4x-JoVufrZ20ZAbLdqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <style name="ShapeAppearanceOverlay.MyApp.ImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+        <item radius="20dp" name="actionBarSize" /><!-- Ad
+        just the radius as per your preference -->
+    </style>
+</resources>
+

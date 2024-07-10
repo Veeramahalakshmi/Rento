@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgs">
+
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="136dp"
+        android:gravity="center"
+        android:text="Welcome!"
+        android:textColor="@color/dark_green"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/additem"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="-1dp"
+        android:clickable="true"
+        android:src="@drawable/itemlogo" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="194dp"
+        android:layout_height="136dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="201dp"
+        android:clickable="true"
+        android:src="@drawable/pro" />
+
+    <ImageView
+        android:id="@+id/About_Us"
+        android:layout_width="212dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginStart="-209dp"
+        android:layout_marginTop="376dp"
+        android:layout_toEndOf="@id/profile"
+        android:clickable="true"
+        android:src="@drawable/abs" />
+
+    <ImageView
+        android:id="@+id/tc"
+        android:layout_width="198dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="375dp"
+        android:layout_toEndOf="@id/profile"
+        android:clickable="true"
+        android:src="@drawable/tc" />
+
+    <ImageView
+        android:id="@+id/Signout"
+        android:layout_width="159dp"
+        android:layout_height="131dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="202dp"
+        android:layout_toEndOf="@id/profile"
+        android:clickable="true"
+        android:src="@drawable/signout" />
+
+</RelativeLayout>
